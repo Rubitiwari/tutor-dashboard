@@ -1,0 +1,35 @@
+html{
+  font-size: 75%
+}
+.flex-container {
+  display: flex;
+}
+header {
+  width: 100%;
+}
+
+
+
+
+.full-width {
+  width: 100%
+}
+.padding-1 {
+  padding: 1rem;
+}
+.padding-2 {
+  padding: 2rem;
+}
+.padding-3 {
+  padding: 3rem;
+}
+.padding-4 {
+  padding: 1rem;
+}
+.padding-5 {
+  padding: 5rem;
+}
+.padding-6 {
+  padding: 6rem;
+}
+
