@@ -5,6 +5,7 @@
         <title>Tutor Dashboard</title>
         <base href="/">
         <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="file:///home/rubi/learning/tutor-dashboard/src/styles/index.css">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
@@ -12,10 +13,98 @@
     <body>
         <div class="flex-container">
             <header class="row">
-                <div class="col-sm-4">Test</div>
-                <div class="col-sm-6">Test</div>
-                <div class="col-sm-2">Test</div>
+                <div class="col-sm-3 site-name">
+                    Gyanum
+                </div>
+                <div class="col-sm-6">
+                    <nav class="navbar">
+                        <div class="container-fluid">
+                            <ul class="nav navbar-nav">
+                                <li class="active"><a href="#">HOME</a></li>
+                                <li><a href="#">MY ACCOUNT</a></li>
+                                <li><a href="#">GET STUDENT</a></li>
+                                <li><a href="#">INSTANT DOUBT</a></li>
+                                <li><a href="#">HELP</a></li>
+                            </ul>
+                        </div>
+                    </nav>
+                </div>
+                <div class="col-sm-2 col-md-2 col-lg-2 flex-container user-detail">
+                    <div class="row">
+                        <div class="col-sm-1 col-md-1 col-lg-1 user-avatar">Test</div>
+                        <div class="col-sm-1 col-md-1 col-lg-1 wallet-amount">Test</div>
+                    </div>
+                </div>
             </header>
+        </div>
+        <div class="flex-container background">
+            <div class="row flex-container full-width">
+                <div class="col-sm-9" style="width:80%;">
+                    <div class="row flex-container center">
+                        <div class="col-sm-4">test</div>
+                        <div class="col-sm-4"></div>
+                    </div>
+                </div>
+                <div class="col-sm-2" style="width: 20%; background-color: #ffffff; border: 1px solid #cccccc;">
+                    <section style="margin: 1rem; border-radius: 3px; width: 100%; display: flex; background-color: aquamarine; flex-direction: column" class="center">
+                        <div style="width: 90%;font-size: 1.4rem; font-weight: bold;" class="flex-container center">
+                            Fitjee Certification for Tutors
+                        </div>
+                        <div style="width: 41%; font-size: 1.3rem; font-weight: bold; background-color: darkorange; margin: 1rem; text-align: center; line-height: 3rem; border-radius: 15px;" class="flex-container center">
+                            <a style="color: #000; text-decoration: none;" href="#">Enroll Now</a>
+                        </div>
+                    </section>
+                    <section style="margin: 1rem; border-radius: 3px; width: 100%; display: flex; background-color: aquamarine; flex-direction: column" class="center">
+                        <div style="width: 90%; margin-left: 1rem; font-size: 1.4rem; font-weight: bold;" class="flex-container center">
+                            Complete your account now by adding your direct deposit details
+                        </div>
+                        <div style="width: 55%; font-size: 1.3rem; font-weight: bold; background-color: darkorange; margin: 1rem; text-align: center; line-height: 3rem; border-radius: 15px;" class="flex-container center">
+                            <a style="color: #000; text-decoration: none;" href="#">Add Bank Details</a>
+                        </div>
+                    </section>
+                    <section class="payments">
+                        <div class="row">
+                            <div class="col-sm-4" style="font-weight: bold; font-size: 1.3rem;">PAYMENTS</div>
+                        </div>
+                        <div class="clear"></div>
+                        <div class="row total-earning-block" style="margin: 0rem;">
+                            <div class="col-sm-7 total-earning-label">
+                                Total Earnings :
+                            </div>
+                            <div class="col-sm-4 total-earning-value">
+                                &#x20b9; 9500
+                            </div>
+                        </div>
+                        <div class="clear"></div>
+                        <div class="row total-earning-block" style="margin: 0rem;">
+                            <div class="col-sm-7 total-earning-label">
+                                Amount paid :
+                            </div>
+                            <div class="col-sm-4 total-earning-value">
+                                &#x20b9; 9500
+                            </div>
+                        </div>
+                        <div class="clear"></div>
+                        <div class="row amount-transfer-block" style="margin: 0rem;">
+                            <div class="col-sm-8 total-earning-label">
+                                Amount Transfer :
+                            </div>
+                            <div class="col-sm-4 total-earning-value">
+                                &#x20b9; 9500
+                            </div>
+                            <div class="col-sm-8 total-earning-hint">
+                                (At Your Account)
+                            </div>
+                        </div>
+                        <div class="clear"></div>
+                        <div class="view-detail">View Detail -></div>
+                    </section>
+                    <div class="clear"></div>
+                    <section class="contact-list-block">
+                        <div class="contact-list">CONTACT LIST</div>
+                    </section>
+                </div>
+            </div>
         </div>
     </body>
 </html>
