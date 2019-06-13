@@ -7,6 +7,12 @@ html{
 .flex-container {
   display: flex;
 }
+.bold {
+  font-weight: bold;
+}
+.minor-clear {
+  height: .3rem;
+}
 header {
   width: 100%;
   display: flex;
@@ -46,6 +52,17 @@ li a {
   border-right: 1px solid #ccc;
 }
 .wallet-amount {
+
+}
+
+.user-session-block {
+  width: 80%;
+}
+.user-session {
+}
+
+.upcoming-sessions {
+  background-color: #FFFFFF;
 
 }
 
@@ -120,3 +137,26 @@ li a {
   padding: 6rem;
 }
 
+@media screen and (max-width: 992px) {
+  header {
+    width: 100%;
+    display: flex;
+    height: auto;
+    border-bottom: 1px solid #cccccc;
+  }
+  .user-session-block {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  header {
+    width: 100%;
+    display: flex;
+    height: auto;
+    border-bottom: 1px solid #cccccc;
+  }
+  .user-session-block {
+    width: 100%;
+  }
+}
