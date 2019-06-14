@@ -1,5 +1,6 @@
 html{
-  font-size: 75%
+  font-size: 75%;
+  color: #000000;
 }
 .background {
    background-color: ghostwhite;
@@ -9,6 +10,9 @@ html{
 }
 .bold {
   font-weight: bold;
+}
+.medium-font-size {
+  font-size: 1.3rem;
 }
 .minor-clear {
   height: .3rem;
@@ -54,18 +58,119 @@ li a {
 .wallet-amount {
 
 }
+.border-bottom {
+  border-bottom: 1px solid lightgray;
+}
 
 .user-session-block {
   width: 80%;
 }
-.user-session {
-}
-
-.upcoming-sessions {
+.user-session-details {
   background-color: #FFFFFF;
+}
+.greeting-label {
+  font-size: 2rem;
+  font-weight: 200;
+  padding-top: 2rem;
+  color: #000000;
+}
+.detail {
+  font-weight: 200;
+  font-size: 1.2rem;
+}
+.session-number {
 
 }
+.session-timing {
+  font-size: 1.2rem;
+  letter-spacing: 0.06rem;
+}
+.online-tution {
+  border: 1px solid yellow;
+  background: yellow;
+  display: flex;
+  justify-content: center;
+  border-radius: 3px;
+  width: 68%;
+  color: rosybrown;
+}
+.join-now {
+  font-size: 1rem;
+  border: 1px solid lightgray;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+.starts {
+  font-size: 1.2rem;
+}
+.subject-detail {
 
+}
+.user-details {
+
+}
+.name {
+
+}
+.student-class {
+
+}
+.join-now {
+
+}
+.user-name {
+
+}
+.upcoming-sessions {
+}
+.right-detail {
+  width: 20%;
+  background-color: #ffffff;
+  border: 1px solid #cccccc;
+}
+.fitzee-block {
+  margin: 1rem;
+  border-radius: 3px;
+  width: 100%;
+  display: flex;
+  background-color: aquamarine;
+  flex-direction: column
+}
+.fitzee-label {
+  width: 90%;
+  margin-left: 1rem;
+  font-size: 1.4rem;
+  font-weight: bold;
+}
+.enroll-button {
+  width: 41%;
+  font-size: 1.3rem;
+  font-weight: bold;
+  background-color: darkorange;
+  margin: 1rem;
+  text-align: center;
+  line-height: 3rem;
+  border-radius: 15px;
+}
+.earning-button {
+  width: 55%;
+  font-size: 1.3rem;
+  font-weight: bold;
+  background-color: darkorange;
+  margin: 1rem;
+  text-align: center;
+  line-height: 3rem;
+  border-radius: 15px;
+}
+.enroll-button a, .earning-button a {
+  color: #000;
+  text-decoration: none;
+}
+.account-block {
+  margin: 1rem; border-radius: 3px; width: 100%; display: flex; background-color: aquamarine; flex-direction: column
+}
 .payments {
   margin: 1rem;
   border-radius: 3px;
